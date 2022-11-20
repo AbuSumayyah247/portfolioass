@@ -1,0 +1,120 @@
+#back {
+    background-image: linear-gradient(to left, cyan, yellow);
+    
+}
+
+.main-box {
+    margin: auto;
+    margin-top: 1.5%;
+    height: auto;
+    width: 97%;
+    background-color: rgb(243, 246, 247);
+    border-radius: 2em;
+    border: 3px solid green;
+    }
+
+a {
+color: black;
+}
+
+.menu-list .active {
+    background-color: grey;
+    color: white;
+    border-radius: 7px;
+}
+.menu-button {
+display: flex;
+border-radius: 50px;
+padding: 10px;
+margin: 10px;
+}
+
+.menu-list li{
+display: flex;
+padding: 0.5% 3%;
+float: right;
+background-color: rgb(243, 246, 247);
+text-size-adjust: 14px;
+border-right: 1px solid black;
+}
+
+.menu-list li:first-child {
+    border-right: none;
+}
+/* .menu-list li:hover {
+    background-color: #111;
+    color: white;
+} */
+
+img {
+    border-radius: 50px;
+    height: 450px;
+    width: 250px;
+    object-fit: scale-down;
+    padding: 1em;
+    }
+
+.abd-pass{
+    float: left;
+}
+
+/* .abd-pass .photo-textUp{
+    display: flex;
+    padding: 5rem 0 60rem;
+} */
+
+.photo-textDown{
+    margin-right: 5%;
+}
+
+.first-gen-div{
+    display: flex;
+    align-items: center;
+    justify-content: content;
+}
+
+.firstContainer {
+    display: flex;
+    align-items: center;
+    justify-content: content;
+}
+
+
+.left-skills1 {
+    padding-left: 10px;
+    font-size: larger;
+ }
+
+.left-skills {
+    padding: 5rem;
+    font-size: larger;
+}
+
+ .left-s{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+    }
+
+.left-s li{
+    margin: 2px;
+    border: #000000 solid;
+    border-radius: 5px;
+}
+  .left-skills {
+      width: 100%;
+      margin-top: 5%;
+  }
+
+/* .my-skills{
+    padding-left: 1rem;
+    margin-top: 20rem;
+} */
+
+/* button{
+    padding: 0.2rem 2rem;
+    color: black;
+    background-color: aliceblue;
+} */
+
+
